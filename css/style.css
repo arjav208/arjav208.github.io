@@ -572,3 +572,220 @@
     height: 450px;
     border: 0;
 }
+/* additional responsiveness & ratio fixes */
+        .portfolio-img {
+            position: relative;
+            height: 500px;
+            border-radius: 12px;
+            overflow: hidden;
+            background: #f0f0f0;
+        }
+        .portfolio-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: .5s;
+        }
+        .portfolio-overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(98, 68, 197, .88);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            opacity: 0;
+            transition: .4s;
+            padding: 20px;
+        }
+        .portfolio-item:hover .portfolio-image {
+            transform: scale(1.08);
+        }
+        .portfolio-item:hover .portfolio-overlay {
+            opacity: 1;
+        }
+        .portfolio-content h4 {
+            color: #fff;
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            transform: translateY(-20px);
+            transition: .4s;
+        }
+        .portfolio-content p {
+            color: #f1f1f1;
+            font-size: 16px;
+            margin-bottom: 30px;
+            transform: translateY(-20px);
+            transition: .4s;
+        }
+        .portfolio-btn {
+            display: flex;
+            gap: 15px;
+            transform: translateY(20px);
+            transition: .4s;
+        }
+        .portfolio-btn .btn {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #fff;
+            color: #fff;
+            border-radius: 50%;
+            transition: .3s;
+        }
+        .portfolio-btn .btn:hover {
+            background: #fff;
+            color: var(--primary);
+        }
+        .portfolio-item:hover .portfolio-content h4,
+        .portfolio-item:hover .portfolio-content p,
+        .portfolio-item:hover .portfolio-btn {
+            transform: translateY(0);
+        }
+        @media (max-width: 991.98px) {
+            .portfolio-img { height: 400px; }
+        }
+        @media (max-width: 767.98px) {
+            .portfolio-img { height: 320px; }
+        }
+        @media (max-width: 575.98px) {
+            .portfolio-img { height: 260px; }
+            .portfolio-content h4 { font-size: 20px; }
+            .portfolio-content p { font-size: 14px; }
+            .portfolio-btn .btn { width: 44px; height: 44px; }
+        }
+        /* about box responsive */
+        .about-box {
+            background: #fff;
+            border-radius: 16px;
+            padding: 30px 25px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 10px 30px rgba(0,0,0,.08);
+            transition: .3s;
+            height: 100%;
+        }
+        .about-box:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 40px rgba(0,0,0,.12);
+        }
+        .about-box img {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+        @media (max-width: 575.98px) {
+            .about-box { padding: 20px 16px; }
+            .about-box img { height: 180px; }
+        }
+        /* service item responsive */
+        .service-item {
+            transition: .3s;
+            height: 100%;
+        }
+        .service-item:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 15px 30px rgba(0,0,0,.08);
+        }
+        .bg-icon {
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url(../img/bg-icon.png) center center no-repeat;
+            background-size: contain;
+            flex-shrink: 0;
+        }
+        @media (max-width: 575.98px) {
+            .bg-icon { width: 60px; height: 60px; }
+            .service-item { padding: 20px !important; }
+        }
+        /* testimonial images */
+        .testimonial-left img,
+        .testimonial-right img {
+            position: absolute;
+            padding: 5px;
+            border: 1px solid var(--secondary);
+            border-radius: 70px;
+            object-fit: cover;
+        }
+        .testimonial-left img:nth-child(1),
+        .testimonial-right img:nth-child(3) {
+            width: 70px;
+            height: 70px;
+            top: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .testimonial-left img:nth-child(2),
+        .testimonial-right img:nth-child(2) {
+            width: 60px;
+            height: 60px;
+            top: 50%;
+            left: 10%;
+            transform: translateY(-50%);
+        }
+        .testimonial-left img:nth-child(3),
+        .testimonial-right img:nth-child(1) {
+            width: 50px;
+            height: 50px;
+            bottom: 10%;
+            right: 10%;
+        }
+        .testimonial-carousel .owl-item img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+        }
+        .testimonial-item .rounded-circle {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+        }
+        /* map */
+        .map-container iframe {
+            width: 100%;
+            height: 450px;
+            border: 0;
+            display: block;
+        }
+        @media (max-width: 767.98px) {
+            .map-container iframe { height: 300px; }
+        }
+        /* years */
+        #about .years .display-1 {
+            font-size: 8rem;
+            line-height: 7rem;
+        }
+        @media (max-width: 575.98px) {
+            #about .years .display-1 { font-size: 5rem; line-height: 4.5rem; }
+        }
+        /* skill progress */
+        #skill .progress { height: 5px; border-radius: 5px; }
+        #skill .progress .progress-bar { border-radius: 5px; transition: 3s; }
+        /* navbar */
+        .navbar .navbar-nav .nav-link {
+            padding: 20px 15px;
+            color: var(--dark);
+            font-size: 17px;
+            font-weight: 600;
+        }
+        @media (max-width: 991.98px) {
+            .navbar .navbar-nav .nav-link { padding: 10px 0; font-size: 16px; }
+        }
+        .btn-play { position: relative; display: block; box-sizing: content-box; width: 16px; height: 26px; border-radius: 100%; border: none; outline: none !important; padding: 18px 20px 20px 28px; background: var(--primary); }
+        .btn-play:before { content: ""; position: absolute; z-index: 0; left: 50%; top: 50%; transform: translateX(-50%) translateY(-50%); display: block; width: 60px; height: 60px; background: var(--primary); border-radius: 100%; animation: pulse-border 1500ms ease-out infinite; }
+        .btn-play:after { content: ""; position: absolute; z-index: 1; left: 50%; top: 50%; transform: translateX(-50%) translateY(-50%); display: block; width: 60px; height: 60px; background: #FFFFFF; border-radius: 100%; transition: all 200ms; }
+        .btn-play span { display: block; position: relative; z-index: 3; width: 0; height: 0; left: -1px; border-left: 16px solid var(--primary); border-top: 11px solid transparent; border-bottom: 11px solid transparent; }
+        @keyframes pulse-border { 0% { transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1); opacity: 1; } 100% { transform: translateX(-50%) translateY(-50%) translateZ(0) scale(2); opacity: 0; } }
+        .my-6 { margin-top: 6rem; margin-bottom: 6rem; }
+        .py-6 { padding-top: 6rem; padding-bottom: 6rem; }
+        @media (max-width: 575.98px) { .my-6 { margin-top: 3rem; margin-bottom: 3rem; } .py-6 { padding-top: 3rem; padding-bottom: 3rem; } }
+        .back-to-top { position: fixed; display: none; right: 45px; bottom: 45px; z-index: 99; }

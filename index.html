@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Arjav Prajapati · iOS Developer</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="description" content="Senior iOS Developer portfolio of Arjav Prajapati — Swift, UIKit, SwiftUI, scalable apps.">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <!-- Spinner -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <h1 class="text-primary fw-bold m-0">Arjav</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#skill" class="nav-item nav-link">Skills</a>
+                <a href="#service" class="nav-item nav-link">Expertise</a>
+            </div>
+            <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
+                <h1 class="text-primary fw-bold m-0">Arjav</h1>
+            </a>
+            <div class="navbar-nav me-auto py-0">
+                <a href="#project" class="nav-item nav-link">Projects</a>
+                <a href="#testimonial" class="nav-item nav-link">Testimonials</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="container-fluid bg-light my-6 mt-0" id="home">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 py-6 pb-0 pt-lg-0">
+                    <h3 class="text-primary mb-3">I'm</h3>
+                    <h1 class="display-3 mb-3">Arjav Prajapati</h1>
+                    <h2 class="typed-text-output d-inline"></h2>
+                    <div class="typed-text d-none">Senior iOS Developer · Swift · SwiftUI · UIKit</div>
+                    <div class="d-flex align-items-center pt-5">
+                        <a href="https://drive.google.com/file/d/1_kPQcunG2G7e_Gj3jBkJavxPk9DfGdkI/view?usp=sharing" class="btn btn-primary py-3 px-4 me-5">Download CV</a>
+                        <button type="button" class="btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h5 class="ms-4 mb-0 d-none d-sm-block">Video intro</h5>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="img/profile.png" alt="Arjav Prajapati">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Modal -->
+    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div class="container-xxl py-6" id="about">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Left card -->
+                <div class="col-lg-6 d-flex wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="about-box w-100">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="years flex-shrink-0 text-center me-4">
+                                <h1 class="display-1 mb-0">4+</h1>
+                                <h5 class="mb-0">Years</h5>
+                            </div>
+                            <h3 class="lh-base mb-0">of iOS development experience</h3>
+                        </div>
+                        <p class="mb-4">
+                            Senior iOS Developer with a strong focus on Swift, SwiftUI, UIKit, REST APIs, Firebase, GraphQL, and MVVM. Passionate about building scalable, high-performance applications with great user experience and clean architecture.
+                        </p>
+                        <div class="mb-4">
+                            <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>High-quality, production-ready code</p>
+                            <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Performance & scalability</p>
+                            <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>On-time delivery & teamwork</p>
+                        </div>
+                        <div class="mt-auto">
+                            <a href="#contact" class="btn btn-primary py-3 px-5">Hire Me</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right card -->
+                <div class="col-lg-6 d-flex wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="about-box w-100">
+                        <div class="row g-3 mb-4">
+                            <div class="col-6"><img src="img/about-3.jpg" class="img-fluid rounded" alt=""></div>
+                            <div class="col-6"><img src="img/about-4.jpg" class="img-fluid rounded" alt=""></div>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <h5 class="border-end pe-3 me-3 mb-0">Happy Clients</h5>
+                            <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">20</h2>
+                        </div>
+                        <p class="mb-4">Trusted by startups and enterprises to deliver reliable, secure iOS applications.</p>
+                        <div class="d-flex align-items-center mb-3">
+                            <h5 class="border-end pe-3 me-3 mb-0">Projects</h5>
+                            <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">100</h2>
+                        </div>
+                        <p class="mb-0">Over 100 apps delivered, ranging from fintech to sports, with clean architecture and modern design.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills & Experience -->
+    <div class="container-xxl py-6 pb-5" id="skill">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-5 mb-5">Skills & Experience</h1>
+                    <p class="mb-4">Combining deep technical expertise with hands-on experience to build secure, performant iOS applications.</p>
+                    <h3 class="mb-4">Core Competencies</h3>
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between"><h6>Swift</h6><h6>95%</h6></div>
+                                <div class="progress"><div class="progress-bar bg-primary" role="progressbar" style="width:95%"></div></div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between"><h6>UIKit</h6><h6>95%</h6></div>
+                                <div class="progress"><div class="progress-bar bg-warning" role="progressbar" style="width:95%"></div></div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between"><h6>SwiftUI</h6><h6>90%</h6></div>
+                                <div class="progress"><div class="progress-bar bg-danger" role="progressbar" style="width:90%"></div></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between"><h6>Architecture (MVVM/Clean)</h6><h6>90%</h6></div>
+                                <div class="progress"><div class="progress-bar bg-dark" role="progressbar" style="width:90%"></div></div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between"><h6>Team Leadership</h6><h6>90%</h6></div>
+                                <div class="progress"><div class="progress-bar bg-info" role="progressbar" style="width:90%"></div></div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between"><h6>Agile / Project Mgmt</h6><h6>85%</h6></div>
+                                <div class="progress"><div class="progress-bar bg-secondary" role="progressbar" style="width:85%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
+                        <li class="nav-item w-50"><button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill" href="#tab-1">Experience</button></li>
+                        <li class="nav-item w-50"><button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-2">Education</button></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>Senior iOS Developer</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2024 – Present</p>
+                                    <h6 class="mb-0">Yellow Panther Pvt. Ltd.</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>iOS Developer</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2022 – 2024</p>
+                                    <h6 class="mb-0">Brainvire Infotech Inc.</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>iOS Developer Intern</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2021 – 2022</p>
+                                    <h6 class="mb-0">Hiyaa Infotech.</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row justify-content-center">
+                                <div class="col-12">
+                                    <h5>B.E. in Information Technology</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2018 – 2022 · Grade A</p>
+                                    <h6 class="mb-0">Gujarat Technological University</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Service / Expertise – no freelance wording -->
+    <div class="container-fluid bg-light my-5 py-6" id="service">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Technical Expertise</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="#contact">Let's connect</a>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3"><i class="fa fa-mobile-alt fa-2x text-dark"></i></div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Native iOS Development</h4>
+                            <h6 class="mb-3 text-primary">Swift · UIKit · SwiftUI</h6>
+                            <span>High‑performance, scalable iOS apps with modern Apple frameworks and best practices.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3"><i class="fa fa-lightbulb fa-2x text-dark"></i></div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Problem Solving & Debugging</h4>
+                            <h6 class="mb-3 text-primary">Performance · Optimization</h6>
+                            <span>Analytical approach to complex technical challenges, ensuring stable and efficient apps.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3"><i class="fa fa-code fa-2x text-dark"></i></div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Clean Architecture</h4>
+                            <h6 class="mb-3 text-primary">MVVM · SOLID · Design Patterns</h6>
+                            <span>Maintainable, testable codebases built with separation of concerns and reusability.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3"><i class="fa fa-users fa-2x text-dark"></i></div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Technical Leadership</h4>
+                            <h6 class="mb-3 text-primary">Mentoring · Code Review · Agile</h6>
+                            <span>Collaborate with cross‑functional teams, mentor developers, and drive project success.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects (unchanged, professional) -->
+    <div class="container-xxl py-6 pt-5" id="project">
+        <div class="container">
+            <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6"><h1 class="display-5 mb-0">Selected Projects</h1></div>
+            </div>
+            <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
+                <!-- LNB -->
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="img/lnb.png" class="img-fluid portfolio-image" alt="LNB Basketball">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>LNB (Ligue Nationale de Basket)</h4>
+                                <p>Live scores, standings, player stats, fixtures, and basketball news.</p>
+                            </div>
+                            <div class="portfolio-btn">
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="img/lnb.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="https://apps.apple.com/in/app/lnb/id1566382132"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- iMote -->
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="img/imote.png" class="img-fluid portfolio-image" alt="iMote Remote">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>iMote – Universal TV Remote</h4>
+                                <p>Control Smart TVs, stream media, cast, mirror, and more.</p>
+                            </div>
+                            <div class="portfolio-btn">
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="img/imote.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="https://apps.apple.com/gb/app/universal-remote-tv-control/id6477382010"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Recce -->
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="img/recce.png" class="img-fluid portfolio-image" alt="Recce Reviews">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>Recce – Movie & TV Reviews</h4>
+                                <p>Discover trending movies, honest reviews, and ratings from friends.</p>
+                            </div>
+                            <div class="portfolio-btn">
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="img/recce.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="https://apps.apple.com/in/app/recce-movie-tv-reviews/id6744403307"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- iSU -->
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="img/isu.png" class="img-fluid portfolio-image" alt="iSU Student">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>iSU – Student Platform</h4>
+                                <p>Schedules, assignments, campus news and collaboration tools.</p>
+                            </div>
+                            <div class="portfolio-btn">
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="img/isu.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="https://apps.apple.com/in/app/isu-home-of-skating-official/id1609077987"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Assila Air -->
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="img/assila.png" class="img-fluid portfolio-image" alt="Assila Air">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>Assila Air – Private Jet Booking</h4>
+                                <p>Search and book private flights, manage reservations.</p>
+                            </div>
+                            <div class="portfolio-btn">
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="img/assila.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="https://apps.apple.com/gb/app/assila-air/id6670315453"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Premier Padel -->
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="img/padel.png" class="img-fluid portfolio-image" alt="Premier Padel">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>Premier Padel – Fan App</h4>
+                                <p>Live scoring, rankings, schedules, and exclusive content.</p>
+                            </div>
+                            <div class="portfolio-btn">
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="img/padel.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="https://apps.apple.com/in/app/premier-padel/id6504236153"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- PDF Scanner -->
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="img/pdfscan.png" class="img-fluid portfolio-image" alt="PDF Scanner">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>PDF Scanner – Smart Toolkit</h4>
+                                <p>Scan, merge, split, compress, OCR, and secure PDFs.</p>
+                            </div>
+                            <div class="portfolio-btn">
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="img/pdfscan.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="https://apps.apple.com/in/app/pdf-scanner-scan-documents/id6450445023"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cost Keeper -->
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="img/costkeeper.png" class="img-fluid portfolio-image" alt="Cost Keeper">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>Cost Keeper – Finance Tracker</h4>
+                                <p>Budgets, income/expense tracking, assets, and insights.</p>
+                            </div>
+                            <div class="portfolio-btn">
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="img/costkeeper.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="https://apps.apple.com/in/app/expense-tracker-moneymap/id6458976090"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Alokozay -->
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="img/alokozay.png" class="img-fluid portfolio-image" alt="Alokozay">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>Alokozay – Online Grocery</h4>
+                                <p>Fresh groceries, fast delivery, exclusive offers.</p>
+                            </div>
+                            <div class="portfolio-btn">
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="img/alokozay.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="https://apps.apple.com/us/app/alokozayshop-online-grocery/id155133948"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 4Improve -->
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="img/4improve.png" class="img-fluid portfolio-image" alt="4Improve">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>4Improve – Health & Wellness</h4>
+                                <p>Fitness, yoga, nutrition, habit tracking, expert guidance.</p>
+                            </div>
+                            <div class="portfolio-btn">
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="img/4improve.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="https://apps.apple.com/in/app/4improve/id1598158109"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gatherhall -->
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="img/gather.png" class="img-fluid portfolio-image" alt="Gatherhall">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>Gatherhall – Messenger</h4>
+                                <p>Chat, voice/video calls, Waves, news, conference meetings.</p>
+                            </div>
+                            <div class="portfolio-btn">
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="img/gather.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="https://apps.apple.com/pe/app/gatherhall/id1573774554"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- BNP -->
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="img/bnp.png" class="img-fluid portfolio-image" alt="BNP Paribas Open">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>BNP Paribas Open – Player Management</h4>
+                                <p>Ride booking, meals, stringing, profiles, schedules.</p>
+                            </div>
+                            <div class="portfolio-btn">
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="img/bnp.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="https://apps.apple.com/in/app/bnp-paribas-open-official/id6477405597"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- IPO Trends -->
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="img/ipo.png" class="img-fluid portfolio-image" alt="IPO Trends">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>IPO Trends – Smart IPO Tracker</h4>
+                                <p>IPO details, AI insights, GMP, allotment, market news.</p>
+                            </div>
+                            <div class="portfolio-btn">
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="img/ipo.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="https://apps.apple.com/us/app/ipo-trend-ipo-allotment-gmp/id6738792695"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team GB -->
+                <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="img/teamgb.png" class="img-fluid portfolio-image" alt="Team GB">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>Team GB – Olympic Fan Experience</h4>
+                                <p>Live coverage, athlete profiles, medal tables, schedules.</p>
+                            </div>
+                            <div class="portfolio-btn">
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="img/teamgb.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="https://apps.apple.com/in/app/team-gb-official-app/id6544809056"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div class="container-fluid bg-light py-5 my-5" id="testimonial">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 text-center mb-2 wow fadeInUp" data-wow-delay="0.1s">Testimonials</h1>
+            <p class="text-center text-muted mb-5 wow fadeInUp" data-wow-delay="0.2s">Feedback from colleagues and technical leaders</p>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-left h-100">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/sagar.jpg" alt="Sagar Nandha">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/keval.jpg" alt="Keval Patel">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-2.jpg" alt="Subhash">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-4">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/sagar.jpg" alt="Sagar">
+                                <div class="testimonial-icon"><i class="fa fa-quote-left text-primary"></i></div>
+                            </div>
+                            <p class="fs-5 fst-italic">"Arjav demonstrates exceptional ownership and technical expertise. His ability to architect scalable solutions and mentor teammates makes him a valuable asset."</p>
+                            <hr class="w-25 mx-auto"><h5>Sagar Nandha</h5><span>iOS Tech Lead • Yellow Panther</span>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-4">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/keval.jpg" alt="Keval">
+                                <div class="testimonial-icon"><i class="fa fa-quote-left text-primary"></i></div>
+                            </div>
+                            <p class="fs-5 fst-italic">"Arjav writes clean, maintainable code and approaches complex challenges with confidence. He actively supports the team through reviews and guidance."</p>
+                            <hr class="w-25 mx-auto"><h5>Keval Patel</h5><span>Tech Lead • Yellow Panther</span>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-4">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-2.jpg" alt="Subhash">
+                                <div class="testimonial-icon"><i class="fa fa-quote-left text-primary"></i></div>
+                            </div>
+                            <p class="fs-5 fst-italic">"Arjav has a strong grasp of mobile architecture and delivers reliable, high-performance solutions. His professionalism greatly contributed to our success."</p>
+                            <hr class="w-25 mx-auto"><h5>Subhash Khimani</h5><span>Team Lead • Brainvire</span>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-4">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-3.jpg" alt="Mohak">
+                                <div class="testimonial-icon"><i class="fa fa-quote-left text-primary"></i></div>
+                            </div>
+                            <p class="fs-5 fst-italic">"Arjav is dependable and results-driven. His attention to detail and dedication to robust applications make him a reliable engineer."</p>
+                            <hr class="w-25 mx-auto"><h5>Mohak Parmar</h5><span>Team Lead • Brainvire</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-right h-100">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/keval.jpg" alt="Keval">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/testimonial-3.jpg" alt="Mohak">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-2.jpg" alt="Subhash">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="container-xxl pb-5" id="contact">
+        <div class="container py-5">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6"><h1 class="display-5 mb-0">Let's Work Together</h1></div>
+                <div class="col-lg-6 text-lg-end"><a class="btn btn-primary py-3 px-5" href="">Say Hello</a></div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="mb-2">Location</p><h3 class="fw-bold">Ahmedabad, Gujarat, India</h3><hr>
+                    <p class="mb-2">Call</p><h3 class="fw-bold">+91 9586415173</h3><hr>
+                    <p class="mb-2">Mail</p><h3 class="fw-bold">arjav.devios@gmail.com</h3><hr>
+                    <p class="mb-2">Follow</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-primary me-2" href="https://www.linkedin.com/in/arjav-prajapati-3535a2181/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="https://github.com/arjav208/" target="_blank"><i class="fab fa-github"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="https://www.instagram.com/pr_arjav2022/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-primary" href="https://x.com/arjav_prajapati" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <p class="mb-4">Open to new opportunities, collaborations, or iOS app ideas. Reach out via the form or directly at <a href="mailto:arjav.devios@gmail.com">arjav.devios@gmail.com</a>.</p>
+                    <form id="contactForm">
+                        <div class="row g-3">
+                            <div class="col-md-6"><div class="form-floating"><input type="text" class="form-control" id="name" placeholder="Name" required><label for="name">Name</label></div></div>
+                            <div class="col-md-6"><div class="form-floating"><input type="email" class="form-control" id="email" placeholder="Email" required><label for="email">Email</label></div></div>
+                            <div class="col-12"><div class="form-floating"><input type="text" class="form-control" id="subject" placeholder="Subject" required><label for="subject">Subject</label></div></div>
+                            <div class="col-12"><div class="form-floating"><textarea class="form-control" id="message" placeholder="Message" style="height:120px" required></textarea><label for="message">Message</label></div></div>
+                            <div class="col-12"><button class="btn btn-primary py-3 px-5" type="submit">Send Message</button></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Map Start -->
+<div class="container-fluid px-0 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="map-container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235014.29980521917!2d72.41458835364277!3d23.020157730333526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1783501457818!5m2!1sen!2sin"
+            width="100%"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin">
+        </iframe>
+    </div>
+</div>
+<!-- Map End -->
+
+    <!-- Footer -->
+    <div class="container-fluid bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom text-secondary" href="#">Arjav Prajapati</a>, iOS Developer.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    Designed with <i class="fa fa-heart text-danger"></i> for your next opportunity.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function(e) {
+            e.preventDefault();
+            const name = document.getElementById("name").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const subject = document.getElementById("subject").value.trim();
+            const message = document.getElementById("message").value.trim();
+            if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                alert("Please enter a valid email address.");
+                return;
+            }
+            window.location.href = `mailto:arjav.devios@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
+        });
+    </script>
+</body>
+
+</html>

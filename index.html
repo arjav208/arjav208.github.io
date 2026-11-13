@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Arjav Prajapati · iOS Developer</title>
+    <title>Arjav Prajapati · Senior iOS Developer</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta name="description" content="Senior iOS Developer portfolio of Arjav Prajapati — Swift, UIKit, SwiftUI, scalable apps.">
+    <meta name="description" content="Senior iOS Developer with 4.5+ years of experience building Swift, UIKit, and SwiftUI apps, scalable architecture, API integrations, and reliable production releases.">
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
     <!-- Google Web Fonts -->
@@ -25,7 +25,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+<body>
     <!-- Spinner -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
@@ -34,7 +34,7 @@
     </div>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5">
         <a href="index.html" class="navbar-brand d-block d-lg-none">
             <h1 class="text-primary fw-bold m-0">Arjav</h1>
         </a>
@@ -53,48 +53,32 @@
             </a>
             <div class="navbar-nav me-auto py-0">
                 <a href="#project" class="nav-item nav-link">Projects</a>
-                <a href="#testimonial" class="nav-item nav-link">Testimonials</a>
                 <a href="#contact" class="nav-item nav-link">Contact</a>
             </div>
         </div>
     </nav>
 
     <!-- Header -->
-    <div class="container-fluid bg-light my-6 mt-0" id="home">
+    <div class="container-fluid bg-light" id="home">
         <div class="container">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6 py-6 pb-0 pt-lg-0">
-                    <h3 class="text-primary mb-3">I'm</h3>
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-6 py-6 pb-0 pt-lg-0 wow fadeInLeft" data-wow-delay="0.1s">
+                    <h3 class="text-primary mb-3">Senior iOS Developer</h3>
                     <h1 class="display-3 mb-3">Arjav Prajapati</h1>
-                    <h2 class="typed-text-output d-inline"></h2>
-                    <div class="typed-text d-none">Senior iOS Developer · Swift · SwiftUI · UIKit</div>
-                    <div class="d-flex align-items-center pt-5">
-                        <a href="https://drive.google.com/file/d/16IJQ3RZ2TbR-vtNp4Lpob7DZdmAmHkqr/view?usp=sharing" class="btn btn-primary py-3 px-4 me-5">Download CV</a>
-                        <button type="button" class="btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
-                            <span></span>
-                        </button>
-                        <h5 class="ms-4 mb-0 d-none d-sm-block">Video intro</h5>
+                    <p class="fs-5 mb-0">I work across product and service engagements, building native iOS apps with Swift, SwiftUI, and UIKit. I partner with teams to turn user and business needs into maintainable, reliable experiences—from architecture through release.</p>
+                    <p class="text-primary fw-semibold mt-3 mb-0">Open to Senior iOS Developer opportunities</p>
+                    <div class="pt-4">
+                        <p class="text-primary fw-semibold mb-2">Here's my CV</p>
+                        <div class="d-flex flex-wrap align-items-center gap-3 cv-actions">
+                            <a href="assets/Arjav_Prajapati_FlowCV_Resume_2026-11-12.pdf" target="_blank" rel="noopener" class="btn cv-action" aria-label="Preview CV" title="Preview CV"><i class="far fa-eye" aria-hidden="true"></i></a>
+                            <a href="assets/Arjav_Prajapati_FlowCV_Resume_2026-11-12.pdf" download class="btn cv-action" aria-label="Download CV" title="Download CV"><i class="fas fa-download" aria-hidden="true"></i></a>
+                            <button type="button" class="btn cv-action" id="copyCvLink" data-cv-url="assets/Arjav_Prajapati_FlowCV_Resume_2026-11-12.pdf" aria-label="Copy CV link" title="Copy CV link"><i class="far fa-copy" aria-hidden="true"></i></button>
+                        </div>
+                        <span id="copyCvStatus" class="small text-muted d-block mt-2" role="status" aria-live="polite"></span>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <img class="img-fluid" src="img/profile.png" alt="Arjav Prajapati">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Video Modal -->
-    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content rounded-0">
-                <div class="modal-header">
-                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="ratio ratio-16x9">
-                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always" allow="autoplay"></iframe>
-                    </div>
+                <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+                    <img class="img-fluid hero-profile-image" src="img/profile.png" alt="Arjav Prajapati">
                 </div>
             </div>
         </div>
@@ -104,40 +88,39 @@
     <div class="container-xxl py-6" id="about">
         <div class="container">
             <div class="row g-4">
-                <div class="col-lg-6 d-flex wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6 d-flex wow fadeInLeft" data-wow-delay="0.2s">
                     <div class="about-box w-100">
                         <div class="d-flex flex-column flex-sm-row align-items-sm-center mb-4">
                             <div class="years flex-shrink-0 text-center mb-3 mb-sm-0 me-sm-4">
-                                <h1 class="display-1 mb-0">4+</h1>
+                                <h1 class="display-1 mb-0">4.5+</h1>
                                 <h5 class="mb-0">Years</h5>
                             </div>
                             <h3 class="lh-base mb-0 text-center text-sm-start">of iOS development experience</h3>
                         </div>
-                        <p class="mb-4 fs-6 fs-md-5">Senior iOS Developer with a strong focus on Swift, SwiftUI, UIKit, REST APIs, Firebase, GraphQL, and MVVM. Passionate about building scalable, high-performance applications with great user experience and clean architecture.</p>
+                        <p class="mb-4 fs-6 fs-md-5">I contribute across the iOS lifecycle—from solution design and API integration to testing, release, and optimization. My focus is maintainable Swift code, dependable app performance, and quality experiences built with product, design, backend, and QA partners.</p>
                         <div class="mb-4">
-                            <p class="mb-2 mb-sm-3 d-flex align-items-center"><i class="far fa-check-circle text-primary me-2 me-sm-3 flex-shrink-0"></i><span>High-quality, production-ready code</span></p>
-                            <p class="mb-2 mb-sm-3 d-flex align-items-center"><i class="far fa-check-circle text-primary me-2 me-sm-3 flex-shrink-0"></i><span>Performance & scalability</span></p>
-                            <p class="mb-0 d-flex align-items-center"><i class="far fa-check-circle text-primary me-2 me-sm-3 flex-shrink-0"></i><span>On-time delivery & teamwork</span></p>
+                            <p class="mb-2 mb-sm-3 d-flex align-items-center"><i class="far fa-check-circle text-primary me-2 me-sm-3 flex-shrink-0"></i><span>Scalable architecture and maintainable codebases</span></p>
+                            <p class="mb-2 mb-sm-3 d-flex align-items-center"><i class="far fa-check-circle text-primary me-2 me-sm-3 flex-shrink-0"></i><span>Reliable performance and high-quality releases</span></p>
+                            <p class="mb-0 d-flex align-items-center"><i class="far fa-check-circle text-primary me-2 me-sm-3 flex-shrink-0"></i><span>Cross-functional collaboration and end-to-end ownership</span></p>
                         </div>
-                        <div class="mt-auto"><a href="#contact" class="btn btn-primary py-2 py-sm-3 px-4 px-sm-5 w-100 w-sm-auto">Hire Me</a></div>
+                        <a class="btn btn-outline-primary mt-2 align-self-start" href="case-studies.html">Explore case studies <i class="fa fa-arrow-right ms-2" aria-hidden="true"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-6 d-flex wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-6 d-flex wow fadeInRight" data-wow-delay="0.4s">
                     <div class="about-box w-100">
                         <div class="row g-3 mb-4">
                             <div class="col-6"><img src="img/about-3.jpg" class="img-fluid rounded" alt=""></div>
                             <div class="col-6"><img src="img/about-4.jpg" class="img-fluid rounded" alt=""></div>
                         </div>
-                        <div class="d-flex align-items-center mb-3">
-                            <h5 class="border-end pe-3 me-3 mb-0">Happy Clients</h5>
-                            <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">20</h2>
+                        <div class="mb-4">
+                            <h4 class="text-primary mb-3">How I Contribute</h4>
+                            <h5 class="mb-2">End-to-End Ownership</h5>
+                            <p class="mb-0">Take iOS features from technical planning through implementation, testing, release, and post-release improvement.</p>
                         </div>
-                        <p class="mb-4">Trusted by startups and enterprises to deliver reliable, secure iOS applications.</p>
-                        <div class="d-flex align-items-center mb-3">
-                            <h5 class="border-end pe-3 me-3 mb-0">Projects</h5>
-                            <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">100</h2>
+                        <div>
+                            <h5 class="mb-2">Collaborative Product Delivery</h5>
+                            <p class="mb-0">Work with product, design, backend, and QA to clarify requirements, evaluate trade-offs, and deliver reliable user experiences.</p>
                         </div>
-                        <p class="mb-0">Over 100 apps delivered, ranging from fintech to sports, with clean architecture and modern design.</p>
                     </div>
                 </div>
             </div>
@@ -145,80 +128,85 @@
     </div>
 
     <!-- Skills & Experience -->
-    <div class="container-xxl py-6 pb-5" id="skill">
+    <div class="container-xxl py-6 pb-4" id="skill">
         <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h1 class="display-5 mb-5">Skills & Experience</h1>
-                    <p class="mb-4">Combining deep technical expertise with hands-on experience to build secure, performant iOS applications.</p>
+            <div class="row g-4">
+                <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                    <h1 class="display-5 mb-4">Skills & Experience</h1>
+                    <p class="mb-4">Hands-on iOS experience across native development, architecture, API integration, quality, and product delivery.</p>
                     <h3 class="mb-4">Core Competencies</h3>
-                    <div class="row align-items-center">
+                    <div class="row g-3">
                         <div class="col-md-6">
-                            <div class="skill mb-4">
-                                <div class="d-flex justify-content-between"><h6>Swift</h6><h6>95%</h6></div>
-                                <div class="progress"><div class="progress-bar bg-primary" role="progressbar" style="width:95%"></div></div>
-                            </div>
-                            <div class="skill mb-4">
-                                <div class="d-flex justify-content-between"><h6>UIKit</h6><h6>95%</h6></div>
-                                <div class="progress"><div class="progress-bar bg-warning" role="progressbar" style="width:95%"></div></div>
-                            </div>
-                            <div class="skill mb-4">
-                                <div class="d-flex justify-content-between"><h6>SwiftUI</h6><h6>90%</h6></div>
-                                <div class="progress"><div class="progress-bar bg-danger" role="progressbar" style="width:90%"></div></div>
+                            <div class="bg-light rounded p-3 h-100">
+                                <h5 class="mb-2">iOS Development</h5>
+                                <p class="mb-0">Swift · UIKit · SwiftUI · Xcode</p>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="skill mb-4">
-                                <div class="d-flex justify-content-between"><h6>Architecture (MVVM/Clean)</h6><h6>90%</h6></div>
-                                <div class="progress"><div class="progress-bar bg-dark" role="progressbar" style="width:90%"></div></div>
+                            <div class="bg-light rounded p-3 h-100">
+                                <h5 class="mb-2">Architecture & State</h5>
+                                <p class="mb-0">MVVM · Clean Architecture · SOLID · State Management</p>
                             </div>
-                            <div class="skill mb-4">
-                                <div class="d-flex justify-content-between"><h6>Team Leadership</h6><h6>90%</h6></div>
-                                <div class="progress"><div class="progress-bar bg-info" role="progressbar" style="width:90%"></div></div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="bg-light rounded p-3 h-100">
+                                <h5 class="mb-2">APIs & Services</h5>
+                                <p class="mb-0">REST APIs · GraphQL · Firebase</p>
                             </div>
-                            <div class="skill mb-4">
-                                <div class="d-flex justify-content-between"><h6>Agile / Project Mgmt</h6><h6>85%</h6></div>
-                                <div class="progress"><div class="progress-bar bg-secondary" role="progressbar" style="width:85%"></div></div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="bg-light rounded p-3 h-100">
+                                <h5 class="mb-2">Quality & Delivery</h5>
+                                <p class="mb-0">Unit Testing · TDD · Git · Agile · App Store Releases</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
-                        <li class="nav-item w-50"><button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill" href="#tab-1">Experience</button></li>
-                        <li class="nav-item w-50"><button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-2">Education</button></li>
+                <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+                    <ul class="nav nav-pills rounded border border-2 border-primary mb-4" role="tablist">
+                        <li class="nav-item w-50" role="presentation"><button type="button" class="nav-link w-100 py-3 fs-5 active" id="experience-tab" data-bs-toggle="pill" data-bs-target="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true">Experience</button></li>
+                        <li class="nav-item w-50" role="presentation"><button type="button" class="nav-link w-100 py-3 fs-5" id="education-tab" data-bs-toggle="pill" data-bs-target="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false">Education</button></li>
                     </ul>
                     <div class="tab-content">
-                        <div id="tab-1" class="tab-pane fade show p-0 active">
-                            <div class="row gy-5 gx-4">
+                        <div id="tab-1" class="tab-pane fade show p-0 active" role="tabpanel" aria-labelledby="experience-tab">
+                            <div class="row g-3">
                                 <div class="col-sm-6">
-                                    <h5>Senior iOS Developer</h5>
-                                    <hr class="text-primary my-2">
-                                    <p class="text-primary mb-1">2024 – Present</p>
-                                    <h6 class="mb-0">Yellow Panther Pvt. Ltd.</h6>
+                                    <div class="bg-light border-start border-3 border-primary rounded p-3 h-100">
+                                        <p class="text-primary fw-semibold mb-2">Jun 2024 – Present</p>
+                                        <h5 class="mb-1">Senior iOS Developer</h5>
+                                        <h6 class="text-muted mb-0"><a class="text-muted" href="https://yellowpanther.io/" target="_blank" rel="noopener noreferrer">Yellow Panther Pvt. Ltd.</a></h6>
+                                    </div>
                                 </div>
                                 <div class="col-sm-6">
-                                    <h5>iOS Developer</h5>
-                                    <hr class="text-primary my-2">
-                                    <p class="text-primary mb-1">2022 – 2024</p>
-                                    <h6 class="mb-0">Brainvire Infotech Inc.</h6>
-                                </div>
-                                <div class="col-sm-6">
-                                    <h5>iOS Developer Intern</h5>
-                                    <hr class="text-primary my-2">
-                                    <p class="text-primary mb-1">2021 – 2022</p>
-                                    <h6 class="mb-0">Hiyaa Infotech.</h6>
+                                    <div class="bg-light border-start border-3 border-primary rounded p-3 h-100">
+                                        <p class="text-primary fw-semibold mb-2">Mar 2022 – Jun 2024</p>
+                                        <h5 class="mb-1">iOS Developer</h5>
+                                        <h6 class="text-muted mb-0"><a class="text-muted" href="https://www.brainvire.com/" target="_blank" rel="noopener noreferrer">Brainvire Infotech Inc.</a></h6>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div id="tab-2" class="tab-pane fade show p-0">
-                            <div class="row justify-content-center">
+                        <div id="tab-2" class="tab-pane fade p-0" role="tabpanel" aria-labelledby="education-tab">
+                            <div class="row">
                                 <div class="col-12">
-                                    <h5>B.E. in Information Technology</h5>
-                                    <hr class="text-primary my-2">
-                                    <p class="text-primary mb-1">2018 – 2022 · Grade A</p>
-                                    <h6 class="mb-0">Gujarat Technological University</h6>
+                                    <div class="bg-light border-start border-3 border-primary rounded p-4">
+                                        <p class="text-primary fw-semibold mb-2">2018 – 2022 <span class="text-muted fw-normal">| Grade A</span></p>
+                                        <h5 class="mb-1">Bachelor of Engineering in Information Technology</h5>
+                                        <h6 class="text-muted mb-0">Gujarat Technological University</h6>
+                                    </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <div class="d-flex flex-column gap-3">
+                                <article class="bg-light rounded p-3">
+                                    <h5 class="mb-2">Security &amp; Authentication</h5>
+                                    <p class="mb-0">Secure Storage · TLS Pinning · SSO</p>
+                                </article>
+                                <article class="bg-light rounded p-3">
+                                    <h5 class="mb-2">CI/CD &amp; Release Engineering</h5>
+                                    <p class="mb-0">Automated Builds · Test Pipelines · App Store Releases</p>
+                                </article>
                             </div>
                         </div>
                     </div>
@@ -228,76 +216,90 @@
     </div>
 
     <!-- Service / Expertise -->
-    <div class="container-fluid bg-light my-5 py-6" id="service">
+    <div class="container-fluid bg-light my-4 py-4" id="service">
         <div class="container">
-            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="col-lg-6">
-                    <h1 class="display-5 mb-0">Technical Expertise</h1>
-                </div>
-                <div class="col-lg-6 text-lg-end">
-                    <a class="btn btn-primary py-3 px-5" href="#contact">Let's connect</a>
+            <div class="row mb-4 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-8">
+                    <h1 class="display-5 mb-2">Technical Expertise</h1>
+                    <p class="text-muted mb-0">iPhone app engineering, data and AI integrations, secure development, and product-focused delivery.</p>
                 </div>
             </div>
-            <div class="row g-4">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+            <div class="expertise-carousel owl-carousel" aria-label="Technical expertise">
+                <div>
+                    <article class="service-item d-flex flex-column bg-white rounded h-100 p-4">
                         <div class="bg-icon flex-shrink-0 mb-3"><i class="fa fa-mobile-alt fa-2x text-dark"></i></div>
-                        <div class="ms-sm-4">
-                            <h4 class="mb-3">Native iOS Development</h4>
-                            <h6 class="mb-3 text-primary">Swift · UIKit · SwiftUI</h6>
-                            <span>High‑performance, scalable iOS apps with modern Apple frameworks and best practices.</span>
-                        </div>
-                    </div>
+                        <h4 class="mb-2">iPhone App Development</h4>
+                        <h6 class="mb-3 text-primary">Swift · UIKit · SwiftUI</h6>
+                        <p class="mb-0">Build intuitive native mobile apps with polished interactions and a focus on Apple platform standards.</p>
+                    </article>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
-                        <div class="bg-icon flex-shrink-0 mb-3"><i class="fa fa-lightbulb fa-2x text-dark"></i></div>
-                        <div class="ms-sm-4">
-                            <h4 class="mb-3">Problem Solving & Debugging</h4>
-                            <h6 class="mb-3 text-primary">Performance · Optimization</h6>
-                            <span>Analytical approach to complex technical challenges, ensuring stable and efficient apps.</span>
-                        </div>
-                    </div>
+                <div>
+                    <article class="service-item d-flex flex-column bg-white rounded h-100 p-4">
+                        <div class="bg-icon flex-shrink-0 mb-3"><i class="fa fa-sitemap fa-2x text-dark"></i></div>
+                        <h4 class="mb-2">Architecture & State Management</h4>
+                        <h6 class="mb-3 text-primary">MVVM · Design Patterns · State</h6>
+                        <p class="mb-0">Apply proven patterns and predictable state management to keep features modular, testable, and maintainable.</p>
+                    </article>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
-                        <div class="bg-icon flex-shrink-0 mb-3"><i class="fa fa-code fa-2x text-dark"></i></div>
-                        <div class="ms-sm-4">
-                            <h4 class="mb-3">Clean Architecture</h4>
-                            <h6 class="mb-3 text-primary">MVVM · SOLID · Design Patterns</h6>
-                            <span>Maintainable, testable codebases built with separation of concerns and reusability.</span>
-                        </div>
-                    </div>
+                <div>
+                    <article class="service-item d-flex flex-column bg-white rounded h-100 p-4">
+                        <div class="bg-icon flex-shrink-0 mb-3"><i class="fa fa-chart-line fa-2x text-dark"></i></div>
+                        <h4 class="mb-2">Data, AI & ML Integration</h4>
+                        <h6 class="mb-3 text-primary">Data Analysis · Data Science · AI/ML</h6>
+                        <p class="mb-0">Connect mobile apps with data and AI/ML capabilities, turning analytical results into useful product experiences.</p>
+                    </article>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                <div>
+                    <article class="service-item d-flex flex-column bg-white rounded h-100 p-4">
+                        <div class="bg-icon flex-shrink-0 mb-3"><i class="fa fa-shield-alt fa-2x text-dark"></i></div>
+                        <h4 class="mb-2">Quality, Security & Compliance</h4>
+                        <h6 class="mb-3 text-primary">TDD · Version Control · Information Security</h6>
+                        <p class="mb-0">Use test-driven development, secure coding, and compliance-aware practices throughout the software development life cycle.</p>
+                    </article>
+                </div>
+                <div>
+                    <article class="service-item d-flex flex-column bg-white rounded h-100 p-4">
                         <div class="bg-icon flex-shrink-0 mb-3"><i class="fa fa-users fa-2x text-dark"></i></div>
-                        <div class="ms-sm-4">
-                            <h4 class="mb-3">Technical Leadership</h4>
-                            <h6 class="mb-3 text-primary">Mentoring · Code Review · Agile</h6>
-                            <span>Collaborate with cross‑functional teams, mentor developers, and drive project success.</span>
-                        </div>
-                    </div>
+                        <h4 class="mb-2">Product Strategy & Problem-Solving</h4>
+                        <h6 class="mb-3 text-primary">Product Management · Business Goals · Agile</h6>
+                        <p class="mb-0">Partner across teams to solve problems and deliver app improvements aligned with business strategy and performance.</p>
+                    </article>
+                </div>
+                <div>
+                    <article class="service-item d-flex flex-column bg-white rounded h-100 p-4">
+                        <div class="bg-icon flex-shrink-0 mb-3"><i class="fa fa-tachometer-alt fa-2x text-dark"></i></div>
+                        <h4 class="mb-2">Performance & Reliability</h4>
+                        <h6 class="mb-3 text-primary">Profiling · Debugging · Quality</h6>
+                        <p class="mb-0">Diagnose issues, improve responsiveness, and support dependable releases through every stage of delivery.</p>
+                    </article>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Projects -->
-    <div class="container-xxl py-6 pt-5" id="project">
+    <div class="container-xxl py-4 pt-3" id="project">
         <div class="container">
-            <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
-                <div class="col-lg-6"><h1 class="display-5 mb-0">Featured Projects</h1></div>
+            <div class="row g-4 mb-4 align-items-end wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-8">
+                    <h1 class="display-5 mb-2">Featured Projects</h1>
+                    <p class="text-muted mb-0">Explore iOS apps and sports-tech products across sports, travel and booking, finance, commerce, and more.</p>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-lg-end">
+                    <button type="button" class="btn btn-outline-primary" id="viewAllProjects" data-bs-toggle="modal" data-bs-target="#allProjectsModal">
+                        View all projects <i class="fa fa-arrow-right ms-2" aria-hidden="true"></i>
+                    </button>
+                </div>
             </div>
-            <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-carousel owl-carousel" role="region" aria-roledescription="carousel" aria-label="Featured iOS projects">
                 <!-- LNB -->
-                <div class="col-lg-4 col-md-6 portfolio-item">
+                <div class="portfolio-item" data-category="sports">
                     <div class="portfolio-img">
-                        <img src="img/lnb.png" class="img-fluid portfolio-image" alt="LNB Basketball">
+                        <img src="img/lnb.png" class="img-fluid portfolio-image" alt="LNB Basketball" loading="lazy" decoding="async">
                         <div class="portfolio-overlay">
                             <div class="portfolio-content">
                                 <h4>LNB (Ligue Nationale de Basket)</h4>
-                                <p>Live scores, standings, player stats, fixtures, and basketball news.</p>
+                                <p>Live scores, team standings, player statistics, fixtures, and news for French professional basketball.</p>
                             </div>
                             <div class="portfolio-btn">
                                 <a class="btn btn-lg-square btn-outline-light mx-1" href="img/lnb.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
@@ -306,14 +308,46 @@
                         </div>
                     </div>
                 </div>
-                <!-- iMote -->
-                <div class="col-lg-4 col-md-6 portfolio-item">
+                <!-- ROAR -->
+                <div class="portfolio-item" data-category="sports-tech">
                     <div class="portfolio-img">
-                        <img src="img/imote.png" class="img-fluid portfolio-image" alt="iMote Remote">
+                        <img src="img/roar.svg" class="img-fluid portfolio-image" alt="ROAR AI audience segmentation product" loading="lazy" decoding="async">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>ROAR – AI Fan Segmentation</h4>
+                                <p>Turn natural-language descriptions into audience segments for sports organizations.</p>
+                            </div>
+                            <div class="portfolio-btn">
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="img/roar.svg" data-lightbox="portfolio" aria-label="Preview ROAR product artwork"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="https://www.linkedin.com/posts/praharshparikh_roar-fanengagement-sportstech-activity-7525873687795900416-CSXZ/" target="_blank" rel="noopener noreferrer" data-action-label="View product post" aria-label="View ROAR product post on LinkedIn"><i class="fa fa-link" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- HUNT -->
+                <div class="portfolio-item" data-category="sports-tech">
+                    <div class="portfolio-img">
+                        <img src="img/hunt.svg" class="img-fluid portfolio-image" alt="HUNT sports content page builder product" loading="lazy" decoding="async">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h4>HUNT – Sports Content Platform</h4>
+                                <p>Build and schedule sports pages with modular blocks, live preview, and geo-targeted sponsor content.</p>
+                            </div>
+                            <div class="portfolio-btn">
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="img/hunt.svg" data-lightbox="portfolio" aria-label="Preview HUNT product artwork"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                <a class="btn btn-lg-square btn-outline-light mx-1" href="https://www.linkedin.com/posts/praharshparikh_activity-7526273817350963202-6OW8" target="_blank" rel="noopener noreferrer" data-action-label="View product post" aria-label="View HUNT product post on LinkedIn"><i class="fa fa-link" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- iMote -->
+                <div class="portfolio-item" data-category="entertainment">
+                    <div class="portfolio-img">
+                        <img src="img/imote.png" class="img-fluid portfolio-image" alt="iMote Remote" loading="lazy" decoding="async">
                         <div class="portfolio-overlay">
                             <div class="portfolio-content">
                                 <h4>iMote – Universal TV Remote</h4>
-                                <p>Control Smart TVs, stream media, cast, mirror, and more.</p>
+                                <p>Control compatible smart TVs, with streaming, casting, and screen-mirroring features.</p>
                             </div>
                             <div class="portfolio-btn">
                                 <a class="btn btn-lg-square btn-outline-light mx-1" href="img/imote.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
@@ -323,13 +357,13 @@
                     </div>
                 </div>
                 <!-- Recce -->
-                <div class="col-lg-4 col-md-6 portfolio-item">
+                <div class="portfolio-item" data-category="entertainment">
                     <div class="portfolio-img">
-                        <img src="img/recce.png" class="img-fluid portfolio-image" alt="Recce Reviews">
+                        <img src="img/recce.png" class="img-fluid portfolio-image" alt="Recce Reviews" loading="lazy" decoding="async">
                         <div class="portfolio-overlay">
                             <div class="portfolio-content">
                                 <h4>Recce – Movie & TV Reviews</h4>
-                                <p>Discover trending movies, honest reviews, and ratings from friends.</p>
+                                <p>Discover films and series, share reviews with friends, and explore community ratings.</p>
                             </div>
                             <div class="portfolio-btn">
                                 <a class="btn btn-lg-square btn-outline-light mx-1" href="img/recce.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
@@ -339,13 +373,13 @@
                     </div>
                 </div>
                 <!-- iSU -->
-                <div class="col-lg-4 col-md-6 portfolio-item">
+                <div class="portfolio-item" data-category="sports">
                     <div class="portfolio-img">
-                        <img src="img/isu.png" class="img-fluid portfolio-image" alt="iSU Student">
+                        <img src="img/isu.png" class="img-fluid portfolio-image" alt="International Skating Union app" loading="lazy" decoding="async">
                         <div class="portfolio-overlay">
                             <div class="portfolio-content">
-                                <h4>iSU – Student Platform</h4>
-                                <p>Schedules, assignments, campus news and collaboration tools.</p>
+                                <h4>ISU – Home of Skating</h4>
+                                <p>Official mobile app from the International Skating Union for the global skating community.</p>
                             </div>
                             <div class="portfolio-btn">
                                 <a class="btn btn-lg-square btn-outline-light mx-1" href="img/isu.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
@@ -355,13 +389,13 @@
                     </div>
                 </div>
                 <!-- Assila Air -->
-                <div class="col-lg-4 col-md-6 portfolio-item">
+                <div class="portfolio-item" data-category="travel">
                     <div class="portfolio-img">
-                        <img src="img/assila.png" class="img-fluid portfolio-image" alt="Assila Air">
+                        <img src="img/assila.png" class="img-fluid portfolio-image" alt="Assila Air" loading="lazy" decoding="async">
                         <div class="portfolio-overlay">
                             <div class="portfolio-content">
                                 <h4>Assila Air – Private Jet Booking</h4>
-                                <p>Search and book private flights, manage reservations.</p>
+                                <p>Search and book private flights, then manage bookings and travel details.</p>
                             </div>
                             <div class="portfolio-btn">
                                 <a class="btn btn-lg-square btn-outline-light mx-1" href="img/assila.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
@@ -371,13 +405,13 @@
                     </div>
                 </div>
                 <!-- Premier Padel -->
-                <div class="col-lg-4 col-md-6 portfolio-item">
+                <div class="portfolio-item" data-category="sports">
                     <div class="portfolio-img">
-                        <img src="img/padel.png" class="img-fluid portfolio-image" alt="Premier Padel">
+                        <img src="img/padel.png" class="img-fluid portfolio-image" alt="Premier Padel" loading="lazy" decoding="async">
                         <div class="portfolio-overlay">
                             <div class="portfolio-content">
                                 <h4>Premier Padel – Fan App</h4>
-                                <p>Live scoring, rankings, schedules, and exclusive content.</p>
+                                <p>Follow live scores, rankings, schedules, and tournament updates from Premier Padel.</p>
                             </div>
                             <div class="portfolio-btn">
                                 <a class="btn btn-lg-square btn-outline-light mx-1" href="img/padel.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
@@ -387,13 +421,13 @@
                     </div>
                 </div>
                 <!-- PDF Scanner -->
-                <div class="col-lg-4 col-md-6 portfolio-item">
+                <div class="portfolio-item" data-category="productivity">
                     <div class="portfolio-img">
-                        <img src="img/pdfscan.png" class="img-fluid portfolio-image" alt="PDF Scanner">
+                        <img src="img/pdfscan.png" class="img-fluid portfolio-image" alt="PDF Scanner" loading="lazy" decoding="async">
                         <div class="portfolio-overlay">
                             <div class="portfolio-content">
                                 <h4>PDF Scanner – Smart Toolkit</h4>
-                                <p>Scan, merge, split, compress, OCR, and secure PDFs.</p>
+                                <p>Scan documents, run OCR, and merge, split, compress, or secure PDF files.</p>
                             </div>
                             <div class="portfolio-btn">
                                 <a class="btn btn-lg-square btn-outline-light mx-1" href="img/pdfscan.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
@@ -403,13 +437,13 @@
                     </div>
                 </div>
                 <!-- Cost Keeper -->
-                <div class="col-lg-4 col-md-6 portfolio-item">
+                <div class="portfolio-item" data-category="finance">
                     <div class="portfolio-img">
-                        <img src="img/costkeeper.png" class="img-fluid portfolio-image" alt="Cost Keeper">
+                        <img src="img/costkeeper.png" class="img-fluid portfolio-image" alt="Cost Keeper" loading="lazy" decoding="async">
                         <div class="portfolio-overlay">
                             <div class="portfolio-content">
                                 <h4>Cost Keeper – Finance Tracker</h4>
-                                <p>Budgets, income/expense tracking, assets, and insights.</p>
+                                <p>Track budgets, income, expenses, assets, and personal-finance insights.</p>
                             </div>
                             <div class="portfolio-btn">
                                 <a class="btn btn-lg-square btn-outline-light mx-1" href="img/costkeeper.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
@@ -419,13 +453,13 @@
                     </div>
                 </div>
                 <!-- Alokozay -->
-                <div class="col-lg-4 col-md-6 portfolio-item">
+                <div class="portfolio-item" data-category="commerce">
                     <div class="portfolio-img">
-                        <img src="img/alokozay.png" class="img-fluid portfolio-image" alt="Alokozay">
+                        <img src="img/alokozay.png" class="img-fluid portfolio-image" alt="Alokozay" loading="lazy" decoding="async">
                         <div class="portfolio-overlay">
                             <div class="portfolio-content">
                                 <h4>Alokozay – Online Grocery</h4>
-                                <p>Fresh groceries, fast delivery, exclusive offers.</p>
+                                <p>Shop groceries online, browse offers, and arrange home delivery.</p>
                             </div>
                             <div class="portfolio-btn">
                                 <a class="btn btn-lg-square btn-outline-light mx-1" href="img/alokozay.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
@@ -435,13 +469,13 @@
                     </div>
                 </div>
                 <!-- 4Improve -->
-                <div class="col-lg-4 col-md-6 portfolio-item">
+                <div class="portfolio-item" data-category="health">
                     <div class="portfolio-img">
-                        <img src="img/4improve.png" class="img-fluid portfolio-image" alt="4Improve">
+                        <img src="img/4improve.png" class="img-fluid portfolio-image" alt="4Improve" loading="lazy" decoding="async">
                         <div class="portfolio-overlay">
                             <div class="portfolio-content">
                                 <h4>4Improve – Health & Wellness</h4>
-                                <p>Fitness, yoga, nutrition, habit tracking, expert guidance.</p>
+                                <p>Support healthy routines with fitness, yoga, nutrition, and habit-tracking features.</p>
                             </div>
                             <div class="portfolio-btn">
                                 <a class="btn btn-lg-square btn-outline-light mx-1" href="img/4improve.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
@@ -451,13 +485,13 @@
                     </div>
                 </div>
                 <!-- Gatherhall -->
-                <div class="col-lg-4 col-md-6 portfolio-item">
+                <div class="portfolio-item" data-category="communication">
                     <div class="portfolio-img">
-                        <img src="img/gather.png" class="img-fluid portfolio-image" alt="Gatherhall">
+                        <img src="img/gather.png" class="img-fluid portfolio-image" alt="Gatherhall" loading="lazy" decoding="async">
                         <div class="portfolio-overlay">
                             <div class="portfolio-content">
                                 <h4>Gatherhall – Messenger</h4>
-                                <p>Chat, voice/video calls, Waves, news, conference meetings.</p>
+                                <p>Combine messaging and voice/video calls with Waves, news, and online conference meetings.</p>
                             </div>
                             <div class="portfolio-btn">
                                 <a class="btn btn-lg-square btn-outline-light mx-1" href="img/gather.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
@@ -467,13 +501,13 @@
                     </div>
                 </div>
                 <!-- BNP -->
-                <div class="col-lg-4 col-md-6 portfolio-item">
+                <div class="portfolio-item" data-category="sports">
                     <div class="portfolio-img">
-                        <img src="img/bnp.png" class="img-fluid portfolio-image" alt="BNP Paribas Open">
+                        <img src="img/bnp.png" class="img-fluid portfolio-image" alt="BNP Paribas Open" loading="lazy" decoding="async">
                         <div class="portfolio-overlay">
                             <div class="portfolio-content">
                                 <h4>BNP Paribas Open – Player Management</h4>
-                                <p>Ride booking, meals, stringing, profiles, schedules.</p>
+                                <p>Coordinate tournament logistics, including rides, meals, racquet stringing, profiles, and schedules.</p>
                             </div>
                             <div class="portfolio-btn">
                                 <a class="btn btn-lg-square btn-outline-light mx-1" href="img/bnp.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
@@ -483,13 +517,13 @@
                     </div>
                 </div>
                 <!-- IPO Trends -->
-                <div class="col-lg-4 col-md-6 portfolio-item">
+                <div class="portfolio-item" data-category="finance">
                     <div class="portfolio-img">
-                        <img src="img/ipo.png" class="img-fluid portfolio-image" alt="IPO Trends">
+                        <img src="img/ipo.png" class="img-fluid portfolio-image" alt="IPO Trends" loading="lazy" decoding="async">
                         <div class="portfolio-overlay">
                             <div class="portfolio-content">
                                 <h4>IPO Trends – Smart IPO Tracker</h4>
-                                <p>IPO details, AI insights, GMP, allotment, market news.</p>
+                                <p>Track IPO details, allotment updates, grey-market premiums, AI insights, and market news.</p>
                             </div>
                             <div class="portfolio-btn">
                                 <a class="btn btn-lg-square btn-outline-light mx-1" href="img/ipo.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
@@ -499,13 +533,13 @@
                     </div>
                 </div>
                 <!-- Team GB -->
-                <div class="col-lg-4 col-md-6 portfolio-item">
+                <div class="portfolio-item" data-category="sports">
                     <div class="portfolio-img">
-                        <img src="img/teamgb.png" class="img-fluid portfolio-image" alt="Team GB">
+                        <img src="img/teamgb.png" class="img-fluid portfolio-image" alt="Team GB" loading="lazy" decoding="async">
                         <div class="portfolio-overlay">
                             <div class="portfolio-content">
                                 <h4>Team GB – Olympic Fan Experience</h4>
-                                <p>Live coverage, athlete profiles, medal tables, schedules.</p>
+                                <p>Follow Team GB with live coverage, athlete profiles, medal tables, and event schedules.</p>
                             </div>
                             <div class="portfolio-btn">
                                 <a class="btn btn-lg-square btn-outline-light mx-1" href="img/teamgb.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
@@ -513,6 +547,25 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- All Projects -->
+    <div class="modal fade projects-modal" id="allProjectsModal" tabindex="-1" aria-labelledby="allProjectsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable project-modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div>
+                        <h2 class="modal-title display-6" id="allProjectsModalLabel">All Projects</h2>
+                        <p class="text-muted mb-0">Browse projects by product category.</p>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close projects"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="project-category-filters" id="projectCategoryFilters" role="group" aria-label="Filter projects by category"></div>
+                    <div class="project-gallery-grid" id="allProjectsGrid" role="region" aria-label="Project results" aria-live="polite"></div>
                 </div>
             </div>
         </div>
@@ -579,17 +632,19 @@
     </div> -->
 
     <!-- Contact -->
-    <div class="container-xxl pb-5" id="contact">
-        <div class="container py-5">
-            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="col-lg-6"><h1 class="display-5 mb-0">Let's Work Together</h1></div>
-                <div class="col-lg-6 text-lg-end"><a class="btn btn-primary py-3 px-5" href="">Say Hello</a></div>
+    <div class="container-xxl pb-3" id="contact">
+        <div class="container py-4">
+            <div class="row mb-3 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-12">
+                    <h1 class="display-5 mb-2">Let's Work Together</h1>
+                    <p class="text-muted mb-0">Open to remote, hybrid, or on-site Senior iOS Developer roles in Pune, Bengaluru, Gurugram, Hyderabad, Delhi, and Ahmedabad. Ready to relocate.</p>
+                </div>
             </div>
-            <div class="row g-5">
+            <div class="row g-4">
                 <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="mb-2">Location</p><h3 class="fw-bold">Ahmedabad, Gujarat, India</h3><hr>
-                    <p class="mb-2">Call</p><h3 class="fw-bold">+91 9586415173</h3><hr>
-                    <p class="mb-2">Mail</p><h3 class="fw-bold">arjav.devios@gmail.com</h3><hr>
+                    <p class="mb-2">Location</p><h3 class="fw-bold"><a class="contact-link" href="https://maps.google.com/?q=Ahmedabad%2C%20Gujarat%2C%20India" target="_blank" rel="noopener noreferrer" aria-label="Open Ahmedabad, Gujarat, India in Google Maps">Ahmedabad, Gujarat, India</a></h3><hr>
+                    <p class="mb-2">Call</p><h3 class="fw-bold"><a class="contact-link" href="tel:+919586415173">+91 9586415173</a></h3><hr>
+                    <p class="mb-2">Mail</p><h3 class="fw-bold"><a class="contact-link" href="mailto:arjav.devios@gmail.com">arjav.devios@gmail.com</a></h3><hr>
                     <p class="mb-2">Follow</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square btn-primary me-2" href="https://www.linkedin.com/in/arjav-prajapati-3535a2181/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -599,7 +654,7 @@
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <p class="mb-4">Open to new opportunities, collaborations, or iOS app ideas. Reach out via the form or directly at <a href="mailto:arjav.devios@gmail.com">arjav.devios@gmail.com</a>.</p>
+                    <p class="mb-4">If you’re hiring for an iOS role or would like to discuss a product, send a message below. Your email app will open a draft addressed to <a href="mailto:arjav.devios@gmail.com">arjav.devios@gmail.com</a>.</p>
                     <form id="contactForm">
                         <div class="row g-3">
                             <div class="col-md-6"><div class="form-floating"><input type="text" class="form-control" id="name" placeholder="Name" required><label for="name">Name</label></div></div>
@@ -614,44 +669,45 @@
         </div>
     </div>
 
-    <!-- Map Start -->
-    <div class="container-fluid px-0 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="map-container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235014.29980521917!2d72.41458835364277!3d23.020157730333526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1783501457818!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-        </div>
-    </div>
-    <!-- Map End -->
-
     <!-- Footer -->
     <div class="container-fluid bg-dark text-white py-4">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom text-secondary" href="#">Arjav Prajapati</a>, iOS Developer.
+                    &copy; <a class="border-bottom text-secondary" href="index.html#home">Arjav Prajapati</a>, Senior iOS Developer.
                 </div>
                 <div class="col-md-6 text-center text-md-end">
-                    Designed with <i class="fa fa-heart text-danger"></i> for your next opportunity.
+                    Designed with <i class="fa fa-heart text-danger" aria-hidden="true"></i> and attention to detail.
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#home" class="btn btn-lg btn-primary btn-lg-square back-to-top" aria-label="Back to top"><i class="bi bi-arrow-up" aria-hidden="true"></i></a>
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/typed/typed.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
     <script src="js/main.js"></script>
     <script>
+        const copyCvButton = document.getElementById("copyCvLink");
+        const copyCvStatus = document.getElementById("copyCvStatus");
+        copyCvButton.addEventListener("click", async function() {
+            try {
+                const cvUrl = new URL(copyCvButton.dataset.cvUrl, window.location.href).href;
+                await navigator.clipboard.writeText(cvUrl);
+                copyCvStatus.textContent = "CV link copied to clipboard.";
+            } catch (error) {
+                console.error("Unable to copy the CV link.", error);
+                copyCvStatus.textContent = "Unable to copy the CV link. Check clipboard permissions and try again.";
+            }
+        });
+
         document.getElementById("contactForm").addEventListener("submit", function(e) {
             e.preventDefault();
             const name = document.getElementById("name").value.trim();

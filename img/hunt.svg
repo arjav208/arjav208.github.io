@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title description">
+  <title id="title">HUNT — sports content platform</title>
+  <desc id="description">A sports page builder concept with modular content blocks and a live preview.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f6f1"/>
+      <stop offset="1" stop-color="#e7eef5"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#19b9aa"/>
+      <stop offset="1" stop-color="#147c91"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="36" fill="url(#background)"/>
+  <circle cx="1080" cy="120" r="230" fill="#17a899" opacity=".08"/>
+  <text x="85" y="93" fill="#64808a" font-family="Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="5">YELLOW PANTHER  /  SPORTS CONTENT</text>
+  <text x="85" y="230" fill="#172a3a" font-family="Arial, sans-serif" font-size="120" font-weight="800" letter-spacing="-6">HUNT</text>
+  <text x="92" y="285" fill="#198b8d" font-family="Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="4">PAGE BUILDER</text>
+  <rect x="85" y="350" width="1030" height="350" rx="24" fill="#ffffff" stroke="#dbe4e9" stroke-width="2"/>
+  <rect x="85" y="350" width="205" height="350" rx="24" fill="#172a3a"/>
+  <rect x="260" y="350" width="30" height="350" fill="#172a3a"/>
+  <text x="118" y="402" fill="#8fa4ae" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="2">PAGE BLOCKS</text>
+  <rect x="115" y="430" width="145" height="43" rx="10" fill="#ffffff" opacity=".13"/>
+  <text x="135" y="458" fill="#ffffff" font-family="Arial, sans-serif" font-size="17">Hero</text>
+  <rect x="115" y="487" width="145" height="43" rx="10" fill="#ffffff" opacity=".13"/>
+  <text x="135" y="515" fill="#ffffff" font-family="Arial, sans-serif" font-size="17">Story grid</text>
+  <rect x="115" y="544" width="145" height="43" rx="10" fill="#ffffff" opacity=".13"/>
+  <text x="135" y="572" fill="#ffffff" font-family="Arial, sans-serif" font-size="17">Sponsor</text>
+  <rect x="325" y="390" width="745" height="54" rx="12" fill="#f1f5f6"/>
+  <text x="355" y="424" fill="#617580" font-family="Arial, sans-serif" font-size="19" font-weight="700">LIVE PAGE PREVIEW</text>
+  <rect x="325" y="468" width="345" height="190" rx="16" fill="url(#accent)"/>
+  <text x="355" y="535" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2">MATCHDAY</text>
+  <text x="355" y="585" fill="#ffffff" font-family="Arial, sans-serif" font-size="31" font-weight="700">The story starts here</text>
+  <rect x="695" y="468" width="160" height="190" rx="16" fill="#eaf0f3"/>
+  <rect x="870" y="468" width="200" height="88" rx="16" fill="#eaf0f3"/>
+  <rect x="870" y="570" width="200" height="88" rx="16" fill="#dbe8e9"/>
+  <rect x="936" y="385" width="134" height="40" rx="20" fill="#e3f5f2"/>
+  <circle cx="955" cy="405" r="6" fill="#13998e"/>
+  <text x="970" y="412" fill="#197b77" font-family="Arial, sans-serif" font-size="15" font-weight="700">SCHEDULED</text>
+</svg>
